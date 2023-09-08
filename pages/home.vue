@@ -56,7 +56,7 @@
 </div>
 <div class="grid grid-cols-4 gap-4 mt-16 p-16 ">
   <div class="border rounded-md p-4 flex flex-col items-center bg-slate-300">
-    <img class="w-30 " src="@/assets/img/SEA.png" alt="Image 1">
+    <img class="w-30 " src="@/assets/img/sea.png" alt="Image 1">
     <p class="mt-2 text-center">Text 1</p>
   </div>
   <div class="border rounded-md p-4 flex flex-col items-center bg-slate-300">
