@@ -1,7 +1,7 @@
 <template>
   <div class="flex min-h-full flex-1 flex-col justify-center lg:px-8 h-screen">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-      <img class="mx-auto h-30 rounded-full " src="/img/C.png" />
+      <img class="mx-auto h-30 rounded-full " src="@/assets/img/C.png" />
     </div>
     <div class="flex justify-center">
       <h1 class="text-blue-500 font-lao text-2xl mt-2"> ຍິນດີຕ້ອນຮັບທ່ານເຂົ້າສູ່ </h1>

@@ -4,7 +4,7 @@
       <div class="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <nuxt-link to="/home">
         <h1 class="text-2xl font-semibold">
-          <img class="h-20" src="/img/C.png" alt="Logo">
+          <img class="h-20" src="@/assets/img/C.png" alt="Logo">
         </h1>
       </nuxt-link >
         <div class="hidden md:flex md:items-center md:justify-center space-x-4">
@@ -44,7 +44,7 @@
         <div class="flex items-center justify-end relative">
           <div class="relative" @mouseenter="toggleProfileDropdown" @mouseleave="closeProfileDropdown">
             <button class="flex items-center focus:outline-none">
-              <img class="h-10 w-10 rounded-full" src="/img/P.png" alt="Profile Photo">
+              <img class="h-10 w-10 rounded-full" src="@/assets/img/P.png" alt="Profile Photo">
             </button>
             <div v-if="showProfileDropdown" class="absolute right-0 mt-0 bg-blue-700 text-white p-4 border-r-8 border-r-green-400 rounded-lg shadow-md">
               <nuxt-link to="/" class="block font-lao hover:text-yellow-300 py-1 transition duration-300 ease-in-out text-center">
@@ -84,7 +84,7 @@ export default {
       mobileLinks: [
         {
           label: "ຂໍ້ມູນທົ່ວໄປ",
-          icon: "/img/R.png",
+          icon: "@/assets/img/R.png",
           submenu: [
             { label: "ຂໍ້ມູນບ້ານ", to: "/village" },
             { label: "ຂໍ້ມູນເມືອງ", to: "/district" },
@@ -94,7 +94,7 @@ export default {
         },
         {
           label: "ຂໍ້ມູນຫຼັກ",
-          icon: "/img/D.png",
+          icon: "@/assets/img/D.png",
           submenu: [
             { label: "ຂໍ້ມູນປຶ້ມສໍາມະໂນຄົວ", to: "/nokhua" },
             { label: "ຂໍ້ມູນສະມາຊິກພາຍໃນບ້ານ", to: "/village" },
@@ -108,7 +108,7 @@ export default {
         },
         {
           label: "ຄົ້ນຫາ",
-          icon: "/img/Srch.png",
+          icon: "@/assets/img/Srch.png",
           submenu: [
             { label: "ຂໍ້ມູນປຶ້ມສໍາມະໂນຄົວ", to: "/research" },
             { label: "ປະຊາກອນທີ່ຍັງມີຊີວິດຢູ່", to: "/scholarship" },
@@ -118,7 +118,7 @@ export default {
         },
         {
           label: "ເອກະສານ",
-          icon: "/img/A.png",
+          icon: "@/assets/img/A.png",
           submenu: [
             { label: "ໃບຢັ້ງຢືນທີ່ຢູ່ພາຍໃນບ້ານ", to: "/government" },
             { label: "ໃບຢັ້ງຢືນການຮັບປະກັນ", to: "/politicalparty" },
@@ -131,7 +131,7 @@ export default {
         },
         {
           label: "ຂໍ້ມູນລາຍງານ",
-          icon: "/img/L.png",
+          icon: "@/assets/img/L.png",
           submenu: [
             { label: "ຂໍ້ມູນປຶ້ມສໍາມະໂນຄົວ", to: "/economicreport" },
             { label: "ປະຊາກອນທີ່ຍັງມີຊີວິດຢູ່", to: "/socialreport" },
@@ -142,7 +142,7 @@ export default {
         },
         {
           label: "ຊ່ວຍເຫຼືອ",
-          icon: "/img/S.png",
+          icon: "@/assets/img/S.png",
           submenu: [
             { label: "ຂໍ້ມູນຜູ້ໃຊ້ລະບົບ", to: "/interview" },
             { label: "ສະແດງລະຫັດຜ່ານ", to: "/inspection" },
